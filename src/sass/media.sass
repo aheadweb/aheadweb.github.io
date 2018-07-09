@@ -1,14 +1,22 @@
 @media only screen and (max-width: 1520px)
-    body
-        background-color: red
     .wrap-title
         margin-top: 200px!important
         h1
             font-size: 80px!important
     .logo-img
     	background-position: top center!important
-
+@media only screen and (max-width: 1389px)
+    .row-line
+        margin-right: 170px!important
+        margin-left: 170px!important
+@media only screen and (max-width: 1050px)
+    .row-line
+        margin: 0!important
 @media only screen and (max-width: 918px)
+    header
+        min-height: 450px!important
+    .logo-img
+        min-height: 450px!important
     .wrap-title
         margin-top: 140px!important
         margin-left: 50px
@@ -44,3 +52,14 @@
             font-size: 30px!important
         h2
             font-size: 17px!important
+@media only screen and (max-width: 451px)
+    .nav-line
+        nav
+            ul
+                padding: 0!important
+                li
+                    padding-left: 3px!important
+                    padding-right: 3px!important
+                    &:nth-child(2)
+                        border-right: 1px solid white
+                        border-left: 1px solid white
