@@ -108,7 +108,7 @@
 			
 			// preload images
 			// add loading status
-			this.$loading		= $('<div class="ei-slider-loading">Loading</div>').prependTo( _self.$el );
+			this.$loading		= $('<div class="ei-slider-loading">Если у вас не прогружает слайдер, разрешите браузеру заргузку файлов</div>').prependTo( _self.$el );
 			
 			$.when( this._preloadImages() ).done( function() {
 				
