@@ -1,3 +1,14 @@
+@font-face {
+  font-family: Tw; /* Имя шрифта */
+  src: url(../fonts/tw.TTF); /* Путь к файлу со шрифтом */
+ }
+
+ @font-face {
+  font-family: Mu; /* Имя шрифта */
+  src: url(../fonts/MuseoSansCyrl-900.ttf); /* Путь к файлу со шрифтом */
+ }
+
+
 @media only screen and (max-width: 1520px) {
   .wrap-title {
     margin-top: 200px !important; }
@@ -102,7 +113,7 @@ header {
 
 .header-line {
   background-color: rgba(255, 255, 255, 0.27);
-  height: 55px; }
+  height: 50px; }
 
 .nav-line nav ul {
   list-style: none; }
@@ -110,7 +121,7 @@ header {
     display: inline-block;
     padding: 0 19px 0 19px; }
     .nav-line nav ul li a {
-      font-size: 18px;
+      font-size: 16px;
       color: white;
       text-decoration: none;
       letter-spacing: 1px; }
@@ -137,21 +148,24 @@ header {
   color: white; }
   .wrap-title h1 {
     line-height: 70px;
+    font-family: Tw;
+    font-weight: normal;
     font-size: 100px; }
   .wrap-title h2 {
-    font-size: 25px; }
+    font-size: 25px;
+    color: #E9E9E9; }
   .wrap-title button {
     margin-top: 40px;
-    padding: 15px 40px;
+    padding: 14px 37px;
     background-color: #F5004B;
     box-shadow: #310D0D 0px 0px 10px;
     color: white;
     outline: none;
     border: none;
     border-radius: 4px;
-    font-size: 18px;
+    font-size: 17px;
     cursor: pointer; }
-
+.ul-line-header{margin: 0;}
 .top {
   padding-top: 40px; }
 
@@ -179,6 +193,9 @@ header {
     bottom: 0;
     opacity: .94;
     z-index: -1; }
+.title-about,.title-portfolio,.title-contactus{
+  font-family: Mu;
+}
 
 .card {
   display: -ms-flexbox;
