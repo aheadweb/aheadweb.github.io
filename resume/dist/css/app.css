@@ -230,7 +230,7 @@ header {
       padding: 14px 71px;
       outline: none;
       box-shadow: #000000 0px 0px 2px; }
-
+.right-line-header {display: flex; justify-content: flex-end;}
 .row-line {
   display: -ms-flexbox;
   display: flex;
