@@ -67,7 +67,7 @@
     .wrap-title h2 {
       font-size: 18px !important; }
     .wrap-title button {
-      padding: 8px 35px !important;
+      padding: 8px 26px !important;
       font-size: 17px !important; } }
 
 @media only screen and (max-width: 551px) {
@@ -156,7 +156,7 @@ header {
     color: #E9E9E9; }
   .wrap-title button {
     margin-top: 40px;
-    padding: 14px 37px;
+    padding: 11px 26px;
     background-color: #F5004B;
     box-shadow: #310D0D 0px 0px 10px;
     color: white;
