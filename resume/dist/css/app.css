@@ -143,7 +143,7 @@ header {
     background-color: rgba(28, 67, 124, 0.2); }
 
 .wrap-title {
-  margin-top: 240px;
+  margin-top: 228px;
   margin-left: 144px;
   color: white; }
   .wrap-title h1 {
@@ -358,3 +358,16 @@ input::placeholder, textarea::placeholder {
 
 input:-ms-input-placeholder {
   color: #CECECE; }
+
+.rules {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  background-color: #132B4D;
+}
+.rules p {
+  margin: 0;
+  padding: 0;
+  color: #AEADAD
+}
