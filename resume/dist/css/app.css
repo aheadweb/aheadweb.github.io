@@ -193,10 +193,15 @@ header {
     bottom: 0;
     opacity: .94;
     z-index: -1; }
-.title-about,.title-portfolio,.title-contactus{
+.title-about,.title-portfolio{
+  padding-top: 40px;
+  padding-bottom: 10px;
   font-family: Mu;
 }
-
+.title-contactus{
+  padding-top: 40px;
+  font-family: Mu;
+}
 .card {
   display: -ms-flexbox;
   display: flex;
@@ -216,12 +221,12 @@ header {
           justify-content: center; }
     .card .wrap-card .title {
       padding-top: 10px;
-      font-size: 22px; }
+      font-size: 20px; }
     .card .wrap-card .wrap-body {
       padding-top: 30px;
       text-align: left; }
       .card .wrap-card .wrap-body ul {
-        font-size: 17px; }
+        font-size: 15px; }
     .card .wrap-card button {
       border: none;
       color: white;
@@ -288,6 +293,15 @@ header {
     display: flex;
     -ms-flex-pack: center;
         justify-content: center; }
+        #contactus .title-contactus-double {
+          font-size: 20px;
+          letter-spacing: 1px;
+          line-height: 0;
+          color: #E9E9E9;
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-pack: center;
+              justify-content: center; }
   #contactus .wrap-flex {
     display: -ms-flexbox;
     display: flex;
@@ -370,4 +384,8 @@ input:-ms-input-placeholder {
   margin: 0;
   padding: 0;
   color: #AEADAD
+}
+
+.upper {
+  text-transform: uppercase;
 }
