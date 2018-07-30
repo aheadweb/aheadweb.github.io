@@ -288,20 +288,14 @@ header {
     z-index: -1; }
   #contactus .title-contactus {
     font-size: 35px;
-    color: #E4E4E4;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: center;
-        justify-content: center; }
+    color: white;
+    text-align: center; }
         #contactus .title-contactus-double {
           font-size: 20px;
           letter-spacing: 1px;
           line-height: 0;
           color: #E9E9E9;
-          display: -ms-flexbox;
-          display: flex;
-          -ms-flex-pack: center;
-              justify-content: center; }
+          text-align: center; }
   #contactus .wrap-flex {
     display: -ms-flexbox;
     display: flex;
@@ -333,7 +327,9 @@ header {
 
 .span-top {
   margin-top: 14px; }
-
+.img-wrap img {
+  max-height: 140px;
+}
 #form .first {
   background-color: rgba(99, 119, 152, 0.8);
   border: none;
