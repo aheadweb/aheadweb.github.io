@@ -89,7 +89,7 @@
 		// titles animation easing
 		titleeasing			: '',
 		// maximum width for the thumbs in pixels
-		thumbMaxWidth		: 150
+		thumbMaxWidth		: 135
     };
 	
 	$.Slideshow.prototype 		= {
@@ -238,7 +238,8 @@
 			});
 			
 			// set the max-width of the slider and show it
-			this.$sliderthumbs.css( 'max-width', this.options.thumbMaxWidth * this.itemsCount + 'px' ).show();
+			this.$sliderthumbs.css( 'max-width', this.options.thumbMaxWidth * this.itemsCount + 45 + 'px' ).show();
+			
 			
 		},
 		_startSlideshow		: function() {
