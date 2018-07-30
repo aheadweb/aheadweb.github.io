@@ -209,7 +209,7 @@ header {
       justify-content: center;
   background-color: #112749;
   width: 320px;
-  height: 490px;
+  height: 485px;
   margin: 10px; }
   .card .wrap-card {
     text-align: center; }
@@ -224,7 +224,8 @@ header {
       font-size: 20px; }
     .card .wrap-card .wrap-body {
       padding-top: 30px;
-      text-align: left; }
+      text-align: left;
+      margin-bottom: 40px; }
       .card .wrap-card .wrap-body ul {
         font-size: 15px; }
     .card .wrap-card button {
@@ -294,7 +295,7 @@ header {
           font-size: 20px;
           letter-spacing: 1px;
           line-height: 0;
-          color: #E9E9E9;
+          color: rgba(233, 233, 233,.3);
           text-align: center; }
   #contactus .wrap-flex {
     display: -ms-flexbox;
@@ -328,7 +329,7 @@ header {
 .span-top {
   margin-top: 14px; }
 .img-wrap img {
-  max-height: 140px;
+  max-height: 125px;
 }
 #form .first {
   background-color: rgba(99, 119, 152, 0.8);
