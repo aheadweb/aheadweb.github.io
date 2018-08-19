@@ -32,10 +32,21 @@
     margin-top: 200px !important; }
     .wrap-title h1 {
       font-size: 80px !important; } }
+@media only screen and (max-width: 933px) {
+  .ul-line-header  {
+    padding: 0;
+  }
+
+}
+
 
 @media only screen and (max-width: 869px) {
   .row-line {
     margin: 0 !important; } }
+    @media only screen and (max-width: 853px) {
+      .nav-line nav ul li {
+        padding: 0 10px 0 10px!important;
+      } }
 
 @media only screen and (max-width: 918px) {
   header {
@@ -52,13 +63,28 @@
     .wrap-title button {
       margin: 10px 0 0 0 !important; } }
 
+      @media only screen and (max-width: 744px) {
+        .nav-line nav ul li {
+          padding: 0 0 0 10px!important;
+        } }
+        @media only screen and (max-width: 684px) {
+          .nav-line nav ul li {
+            padding: 0 2px 0 2px!important;
+           
+          }
+          .nav-line nav ul li a {
+            font-size: 14px!important;
+           
+          }
+        }
+
 @media only screen and (max-width: 691px) {
   .title-about h1 {
     font-size: 28px; } }
 
 @media only screen and (max-width: 613px) {
   .nav-line nav ul li a {
-    font-size: 15px !important; }
+    font-size: 13px !important; }
   .wrap-title {
     margin-top: 120px !important;
     margin-left: 0 !important; }
@@ -89,18 +115,19 @@
   .nav-line nav ul {
     padding: 0 !important; }
     .nav-line nav ul li {
-      padding-left: 3px !important;
-      padding-right: 3px !important; }
-      .nav-line nav ul li:nth-child(2) {
-        border-right: 1px solid white;
-        border-left: 1px solid white; } }
+      padding-left: 0 !important;
+      padding-right: 0 !important; }
+      .nav-line nav ul li a {
+        font-size: 12px!important; } }
 * {
   box-sizing: border-box; }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
 
 .column {
   display: -ms-flexbox;
@@ -385,4 +412,9 @@ input:-ms-input-placeholder {
 
 .upper {
   text-transform: uppercase;
+}
+
+.logo {
+  height: 42px;
+  margin: 0px 0 4px 0;
 }
