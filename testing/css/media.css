@@ -32,12 +32,23 @@
 
 /*Адаптивность слайдера*/
 
+@media screen and (max-width: 1780px) {
+    .content-wrap .content-center .wrap-content .wrapper .slider .main-stock {padding-left: 10px;}
+    }
+
+@media screen and (max-width: 17338px) {
+    .content-wrap .content-center .wrap-content .wrapper .slider .main-stock {padding-left: 30px;}
+}
 @media screen and (max-width: 1500px) {
     .content-wrap .content-center .wrap-content {margin-left: 100px; margin-right: 100px;}
     }
 
+ @media screen and (max-width: 1440px){
+        .content-wrap .content-center .wrap-content .wrapper .slider .main-stock {width: 739px;padding-left: 0;}
+}
+
 @media screen and (max-width: 1251px) {
-    .content-wrap .content-center .wrap-content .wrapper .slider .main-stock {margin-left: 0;}
+    
     .content-wrap .content-center .wrap-content .wrapper .slider .second-content {margin-right: 0;}
  }
 
@@ -135,6 +146,7 @@
     .bg-wrap img {top: 100px;}
  }
  @media screen and (max-width: 500px) {
+     .modal{ width: 300px!important;}
     .bg-wrap img {top: 200px;}
     footer {margin-bottom: 0;margin-top: 10px;}
     footer .footer-content .content-col ul li a {font-size: 13px;}
