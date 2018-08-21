@@ -18,7 +18,7 @@
 }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 653px) {
     .content-wrap header .header-content .header-content-logo  {order: -2;}
     .content-wrap header .header-content .header-content-search {order: -3;}
     .content-wrap header .header-content .header-content-cart{ order: -1;}
@@ -165,6 +165,6 @@
  @media screen and (max-width: 330px) {
     footer .footer-content {flex-wrap: wrap; justify-content: center;}
     .content-col{text-align: center;}
-   
  }
  /*Адаптивность меню + контент*/
+
