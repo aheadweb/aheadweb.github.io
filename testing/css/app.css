@@ -253,7 +253,7 @@ body {
           .contentright .positions .wrap-food .row-food .one-line-row .item-food .hot-item-food {
             display: none;
             position: absolute;
-            background-image: url(../img/icon/Star.png);
+            background-image: url(../img/icon/star.png);
             width: 43px;
             height: 49px;
             line-height: 49px;
