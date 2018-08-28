@@ -148,7 +148,7 @@
     .two .wrappep-two{margin-left: 20%;}
  }
  
- @media screen and (max-width: 734px) {
+ @media screen and (max-width: 737px) {
     .one .top-img{background-size: 175%;background-position: -232px 0;}
     .two .three-item-two{width: 115px;}
     .two .left, .two .right{display: none;}
