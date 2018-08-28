@@ -16,8 +16,8 @@ section {
     display: flex;
     -ms-flex-direction: row;
         flex-direction: row;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
     padding-top: 46px; }
     .one .top-img .content-wrapper .left-item a, .one .top-img .content-wrapper .right-item a {
       outline: none; }
@@ -98,8 +98,8 @@ section {
     .two .wrappep-two .content-number {
       display: -ms-flexbox;
       display: flex;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
       margin-top: 100px; }
       .two .wrappep-two .content-number img {
         margin: 5px; }
