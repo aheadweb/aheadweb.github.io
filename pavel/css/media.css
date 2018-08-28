@@ -228,6 +228,7 @@
     .centet-item-mobile .blok-wrap .main-block .block-what h1{font-size: 44px;}
  }
  @media screen and (max-width: 414px) {
+    .one .top-img .content-wrapper .left-item a img, .one .top-img .content-wrapper .right-item a img{width: 95px;}
     .centet-item-mobile .blok-wrap .main-block .block-what {
         background-color: #302662;
         width: 217px;
@@ -240,7 +241,7 @@
     .two .fowr-item-two{display: none;}
     .two .wrappep-two .content-number img{margin: 0;width: 85px;}
  }
- @media screen and (max-width: 320px) {
+ @media screen and (max-width: 375px) {
     .one .top-img .content-wrapper .left-item a img, .one .top-img .content-wrapper .right-item a img{width: 88px;}
     .centet-item-mobile .blok-wrap .main-block .block-what {
         width: 163px;
