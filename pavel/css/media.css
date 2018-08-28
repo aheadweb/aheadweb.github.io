@@ -96,6 +96,7 @@
         height: 30px;
         bottom: -15px;
     }
+    .two .wrappep-two .content .last-p {padding-bottom: 0;}
  }
  @media screen and (max-width: 1024px) {
     .one .top-img .content-wrapper .centet-item .blok-wrap .second-title h4 {font-size: 13px;}
