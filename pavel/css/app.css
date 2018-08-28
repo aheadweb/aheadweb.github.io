@@ -72,6 +72,7 @@ section {
         color: #302662;
         padding: 0;
         padding-right: 5px;
+        font-family: 'BrutalMedium';
         margin: 0;
         text-transform: uppercase;
         font-size: 25px; }
@@ -181,5 +182,6 @@ section {
       padding: 0;
       padding-right: 0;
       margin: 0;
+      font-family: 'BrutalMedium';
       text-transform: uppercase;
       font-size: 11px; }
