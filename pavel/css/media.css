@@ -50,7 +50,7 @@
     .one .top-img .content-wrapper .centet-item .blok-wrap .second-title h4{font-size: 15px;}
  }
  @media screen and (max-width: 1230px) {
-    .one .top-img .content-wrapper .centet-item .blok-wrap .main-block .block-what h2 {font-size: 25px;padding: 10px;}
+    .one .top-img .content-wrapper .centet-item .blok-wrap .main-block .block-what h2 {font-size: 27px;padding: 10px;}
     .one .top-img .content-wrapper .centet-item .blok-wrap .main-block .block-what h1{font-size: 60px;padding: 10px;}
     .one .top-img .content-wrapper .centet-item .blok-wrap .second-title h4 {font-size: 15px;}
     .one .top-img .content-wrapper .centet-item .blok-wrap .main-block .block-what{
@@ -99,6 +99,9 @@
     .two .wrappep-two .content .last-p {padding-bottom: 0;}
  }
  @media screen and (max-width: 1024px) {
+    .one .top-img .content-wrapper .left-item{margin-left: 10px;}
+    .one .top-img .content-wrapper .right-item{margin-right: 10px;}
+    .one .top-img .content-wrapper{padding-top: 30px;}
     .one .top-img .content-wrapper .centet-item .blok-wrap .second-title h4 {font-size: 13px;}
     .one .top-img .content-wrapper .centet-item .blok-wrap .main-block .block-what{
         width: 285px;
@@ -113,9 +116,9 @@
     .two .left,.two .right {width: 200px;}
     .two .three-item-two{width: 200px;}
     .two .wrappep-two .content-number img{width: 120px;}
-    .two .wrappep-two .content-number{margin-top: 70px;}
+    .two .wrappep-two .content-number{margin-top: 40px;}
     .one .top-img{background-size: cover;background-position: -26px -70px;}
-    .one .top-img .content-wrapper .left-item a img, .one .top-img .content-wrapper .right-item a img{width: 100px;}
+    .one .top-img .content-wrapper .left-item a img, .one .top-img .content-wrapper .right-item a img{width: 120px;}
     
  }
 
