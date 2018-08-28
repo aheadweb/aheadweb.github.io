@@ -131,9 +131,8 @@
  @media screen and (max-width: 860px) {
     .one .top-img{background-size: cover;background-position: -90px -70px;}
  }
- @media screen and (max-width: 780px) {
+ @media screen and (max-width: 789px) {
     .one .top-img{background-size: cover;background-position: -120px -70px;}
-    .two{height: 650px;}
  }
  @media screen and (max-width: 768px) {
     .one .top-img{background-size: cover;background-position: -130px -70px;
