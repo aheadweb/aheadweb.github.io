@@ -104,6 +104,7 @@
     .two .wrappep-two .content-number{margin-top: 70px;}
     .one .top-img{background-size: cover;background-position: -26px -70px;}
     .one .top-img .content-wrapper .left-item a img, .one .top-img .content-wrapper .right-item a img{width: 100px;}
+    .two{width: 586px;}
  }
 
  @media screen and (max-width: 980px) {
