@@ -772,8 +772,18 @@ footer {
   display: block;
 }
 
-
-
+/*accordion*/
+.collapsible{padding: 0!important;;margin: 0!important;border: unset!important;box-shadow: unset!important;}
+.accordion{ border: unset!important;padding: 0!important;flex-direction: column!important;}
+.accordion:hover{background-color:unset!important;}
+.collapsible-header {background: transparent;padding: 0;border:unset;font-size: 18px;
+  font-family: Roboto, sans-serif;
+  color: #D6D6D6;
+  padding-left: 13px;}
+.collapsible-body{padding: 0;border:unset;}
+.sidenav .collapsible-body, .sidenav.fixed .collapsible-body{background-color: transparent;}
+.sidenav li>a:hover{background-color: transparent;}
+.block{display: flex;flex-direction: column;}
 
 /*menu mobile*/
 .menu-mobile {
@@ -815,3 +825,7 @@ footer {
             order: -3!important;
           }
         }
+.active-roll{
+  background-color: rgba(171, 203, 22, 0.5);
+  padding: 10px;
+}

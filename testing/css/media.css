@@ -1,3 +1,6 @@
+@media screen and (max-width: 2000px) {
+.contentright{width: 1400px;}
+}
 /*Адаптивность шапки*/
 @media screen and (max-width: 900px) {
 .content-wrap header .header-content .header-content-number, .content-wrap header .header-content .header-content-work {
