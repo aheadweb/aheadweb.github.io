@@ -110,7 +110,7 @@
         </div>
         <div class="slider-card-wrapper">
             <div class="slider-card">
-                <div class="card">
+                <div class="card" data-id="1">
                     <div class="mobile-wrapper">
                         <div class="card-img">
                             <img src="./img/food/burger.png" alt="">
@@ -157,10 +157,15 @@
                             <svg>
                                 <use xlink:href="svg-sprite/icons.svg#arrowcard" />
                             </svg>
+                            <div class="tabs-item-count">
+                                <div class="minus">-</div>
+                                <div class="number">1</div>
+                                <div class="plus">+</div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-id="2">
                     <div class="mobile-wrapper">
                         <div class="card-img">
                             <img src="./img/food/burger.png" alt="">
@@ -207,10 +212,15 @@
                             <svg>
                                 <use xlink:href="svg-sprite/icons.svg#arrowcard" />
                             </svg>
+                            <div class="tabs-item-count">
+                                <div class="minus">-</div>
+                                <div class="number">1</div>
+                                <div class="plus">+</div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-id="3">
                     <div class="mobile-wrapper">
                         <div class="card-img">
                             <img src="./img/food/burger.png" alt="">
@@ -257,10 +267,15 @@
                             <svg>
                                 <use xlink:href="svg-sprite/icons.svg#arrowcard" />
                             </svg>
+                            <div class="tabs-item-count">
+                                <div class="minus">-</div>
+                                <div class="number">1</div>
+                                <div class="plus">+</div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-id="4">
                     <div class="mobile-wrapper">
                         <div class="card-img">
                             <img src="./img/food/burger.png" alt="">
@@ -307,10 +322,15 @@
                             <svg>
                                 <use xlink:href="svg-sprite/icons.svg#arrowcard" />
                             </svg>
+                            <div class="tabs-item-count ">
+                                <div class="minus">-</div>
+                                <div class="number">1</div>
+                                <div class="plus">+</div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-id="5">
                     <div class="mobile-wrapper">
                         <div class="card-img">
                             <img src="./img/food/burger.png" alt="">
@@ -357,6 +377,11 @@
                             <svg>
                                 <use xlink:href="svg-sprite/icons.svg#arrowcard" />
                             </svg>
+                            <div class="tabs-item-count">
+                                <div class="minus">-</div>
+                                <div class="number">1</div>
+                                <div class="plus">+</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -416,15 +441,85 @@
                 </div>
             </div>
         </div>
+        <div class="hr">
+            <span></span>
+        </div>
+        <div class="footer">
+            <h2>Адресс</h2>
+            <div class="footer-geo">
+                <svg>
+                    <use xlink:href="svg-sprite/icons.svg#geo" />
+                </svg>
+                Ленинградское шоссе, 54, Москва
+            </div>
+            <div class="footer-hr"></div>
+            <div class="wrapper-footer">
+                <div class="tabs">
+                    <div class="footer-tab">
+                        Больше информации о местоположении
+                        <svg>
+                            <use xlink:href="svg-sprite/icons.svg#arrowfooter" />
+                        </svg>
+                    </div>
+                    <div class="footer-tab-item active">
+                        Последний вагон из центра, прям за углом в арке
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="map">
+                        <img class="desctop-map" src="./img/map.png" alt="">
+                        <img class="mobile-map" src="./img/map-mobile.png" alt="">
+                    </div>
+                    <div class="about">
+                        <div class="title">
+                            <div class="left">
+                                <div class="question">Есть вопросы / замечания к блюдам или сервису?</div>
+                                <div class="error">Напишите - исправим!</div>
+                            </div>
+                            <div class="right">
+                                <img src="./img/ava.png" alt="">
+                            </div>
+                        </div>
+                        <div class="descr">
+                            Служба быстрого реагирования FOOD HIDE
+                        </div>
+                        <div class="contact">
+                            <div class="whatsup">
+                                <a href="#">
+                                    <svg>
+                                        <use xlink:href="svg-sprite/icons.svg#wu" />
+                                    </svg>
+                                    WhatsApp
+                                </a>
+                            </div>
+                            <div class="mail">
+                                <a href="mailto:service@foodhide.ru">
+                                    <svg>
+                                        <use xlink:href="svg-sprite/icons.svg#mail" />
+                                    </svg>
+                                    service@foodhide.ru
+                                </a>
+                            </div>
+                            <p>
+                                Дополнительные скидки и бонусы - эксклюзивно в наших соц сетях:
+                            </p>
+                            <a class="inst" href="#">
+                                <svg>
+                                    <use xlink:href="svg-sprite/icons.svg#inst" />
+                                </svg>Instagram
+                            </a>
+                            <a class="vk" href="#">
+                                <svg>
+                                    <use xlink:href="svg-sprite/icons.svg#vk" />
+                                </svg>Instagram
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </div>
-    <script>
-  window.onload = function() {
-    if (!window.location.hash) {
-        window.location = window.location + '#loaded';
-        window.location.reload();
-    }
-}
-    </script>
 </body>
 
 </html>
