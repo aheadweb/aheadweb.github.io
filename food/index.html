@@ -418,10 +418,11 @@
         </div>
     </div>
     <script>
-        var a = setTimeout(function(){
+        var a = function(){
             location.reload();
-        },1000)
-        clearTimeout(a,3000)
+        }
+        setTimeout(a,1000);
+        clearTimeout(a,2000)
     </script>
 </body>
 
