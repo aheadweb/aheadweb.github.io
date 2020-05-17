@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Список страниц</title>
+    <title>Создать вопрос</title>
     <meta name="theme-color" content="#fff">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -26,14 +26,33 @@
     <link rel="stylesheet" href="styles/main.min.css">
   </head>
   <body>
-    <ul style="margin: 50px; font-size: 20px;">
-      <li><a href="./page.html">UI-KIT</a></li>
-      <li><a href="./main.html">Main</a></li>
-      <li><a href="./top.html">Top</a></li>
-      <li><a href="./questions.html">Questions</a></li>
-      <li><a href="./create.html">Create Questions</a></li>
-      <li><a href="./profile.html">Profile</a></li>
-    </ul>
+    <div class="container">
+      <div class="devil"><img src="./img/devil.png"></div>
+      <div class="header">
+        <nav>
+          <ul class="header__menu">
+            <li class="header__item"><a class="header__link active" href="javascript:void(0)">Главная</a></li>
+            <li class="header__item"><a class="header__link" href="javascript:void(0)"> Топ</a></li>
+            <li class="header__item"><a class="header__link not-active" href="javascript:void(0)">Создать вопрос</a></li>
+            <li class="header__item"><a class="header__link" href="javascript:void(0)">Авторизация</a></li>
+            <li class="header__item"></li>
+          </ul>
+        </nav>
+      </div>
+      <section class="section create-questions">
+        <div class="title">СОЗДАТЬ ВОПРОС</div>
+        <form class="row create-questions__row">
+          <textarea class="create-questions__textarea question-box"></textarea>
+          <div class="create-questions__but">Но</div>
+          <textarea class="create-questions__textarea question-box question-box_darken"></textarea>
+          <button class="btn btn_modal create-questions__btn" type="button">Создать вопрос</button>
+        </form>
+        <div class="create-questions__info">  Создавай вопрос Вы соглашаетесь с<a class="link" href="javascript:void(0)">правилами создания вопроса</a></div>
+      </section>
+      <div class="copyright"><a class="copyright__link" href="javascript:void(0)">Связаться с нами</a>
+        <div class="copyright__text"><span class="copyright__year">2020</span><span class="copyright__rules">Все права защищены.</span><a class="copyright__link" href="javascript:void(0)">Политика конфеденциальности</a></div>
+      </div>
+    </div>
     <script src="js/main.min.js"></script>
     <script src="js/vendor.min.js"></script>
   </body>
