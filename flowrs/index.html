@@ -7,7 +7,7 @@
     <title>Project name</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href="static/favicon.ico" rel="icon" type="image/x-icon">
-    <link href="static/css/app.css?914c98502733f0e452bd3a7791b429de" rel="stylesheet">
+    <link href="static/css/app.css?211c3193ba3698c4ff2f6c529a84fcd9" rel="stylesheet">
   </head>
 
   <body>
@@ -16,7 +16,7 @@
       <div class="header__container container">
         <div class="header__top-line">
           <div class="haeder__top-left">
-            <div class="header__mobile-burger"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="24" fill="none">
+            <div class="header__mobile-burger js-open-hide-mobile"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="24" fill="none">
                 <path fill="#000" fill-rule="evenodd" d="M.750641.75c0-.276142.223857-.5.499999-.5H26.7519c.2762 0 .5.223858.5.5 0 .27614-.2238.5-.5.5H1.25064c-.276142 0-.499999-.22386-.499999-.5zM.75 11.9971c0-.2762.223858-.5.5-.5h25.5013c.2761 0 .5.2238.5.5 0 .2761-.2239.5-.5.5H1.25c-.276142 0-.5-.2239-.5-.5zm.5 10.7478c-.276142 0-.5.2238-.5.5 0 .2761.223858.5.5.5h25.5013c.2761 0 .5-.2239.5-.5 0-.2762-.2239-.5-.5-.5H1.25z" clip-rule="evenodd"></path>
               </svg></div>
             <ul class="nav nav_header header__nav">
@@ -162,9 +162,17 @@
         </div>
       </div>
       <div class="container js-slick-header mobile-container">
-        <div class="header__mobile-menu"><a class="header__menu-line-link header__menu-line-link_has-arrow js-mobile-menu-open header__menu-mobile-link" href="javascript:void(0)">Каталог</a><a class="header__mobile-search" href="javascript:void(0)"></a></div>
+        <div class="header__mobile-menu"><a class="header__menu-line-link header__menu-line-link_has-arrow js-mobile-menu-open header__menu-mobile-link" href="javascript:void(0)">Каталог</a>
+          <div class="header__mobile-menu-icons">
+            <div class="header__cart header__cart_mobile"><a class="link" href="javascript:void(0)"><svg class="icon icon-cart">
+                  <use xlink:href="#icon-cart"></use>
+                </svg></a>
+              <div class="message visible">2</div>
+            </div><a class="header__mobile-search" href="javascript:void(0)"></a>
+          </div>
+        </div>
         <ul class="header__menu-line js-header-menu">
-          <li class="header__menu-line-item"><a class="header__menu-line-link" href="javascript:void(0)">Акции</a></li>
+          <li class="header__menu-line-item"><a class="header__menu-line-link header__menu-mobile-watch" href="javascript:void(0)">Акции</a></li>
           <li class="header__menu-line-item"><a class="header__menu-line-link header__menu-line-link_has-arrow js-header-menu-open" href="javascript:void(0)">Поводы</a>
             <div class="header__menu-inner header__menu-inner_reason js-menu-inner">
               <div class="header__menu-inner-row"><a class="header__mobile-close-inner js-menu-close-inner" href="javascript:void(0)">Поводы</a>
@@ -189,11 +197,11 @@
                     <div class="header__menu-inner-list js-accardion-togle-body"><a class="header__menu-inner-link" href="javascript:void(0)">Гиацинты</a><a class="header__menu-inner-link" href="javascript:void(0)">Гортензия</a><a class="header__menu-inner-link" href="javascript:void(0)">Ирисы</a><a class="header__menu-inner-link" href="javascript:void(0)">Каллы</a><a class="header__menu-inner-link" href="javascript:void(0)">Орхидеи</a><a class="header__menu-inner-link" href="javascript:void(0)">Пионы</a><a class="header__menu-inner-link" href="javascript:void(0)">Подсолнухи</a><a class="header__menu-inner-link" href="javascript:void(0)">Сирень</a><a class="header__menu-inner-link" href="javascript:void(0)">Тюльпаны</a><a class="header__menu-inner-link" href="javascript:void(0)">Фрезии</a><a class="header__menu-inner-link" href="javascript:void(0)">Эустомы</a></div>
                   </div>
                 </div>
-                <div class="header__menu-inner-col"><a class="header__menu-inner-col-title" href="javascript:void(0)">Цвет</a>
-                  <div class="header__menu-inner-list"><a class="header__menu-inner-link" href="javascript:void(0)">Красные</a><a class="header__menu-inner-link" href="javascript:void(0)">Красные</a><a class="header__menu-inner-link" href="javascript:void(0)">Розовые</a><a class="header__menu-inner-link" href="javascript:void(0)">Желтые</a><a class="header__menu-inner-link" href="javascript:void(0)">Оранжевые</a><a class="header__menu-inner-link" href="javascript:void(0)">Фиолетовые</a><a class="header__menu-inner-link" href="javascript:void(0)">Синие</a><a class="header__menu-inner-link" href="javascript:void(0)">Разноцветные</a></div>
+                <div class="header__menu-inner-col"><a class="header__menu-inner-col-title js-accardion-togle" href="javascript:void(0)">Цвет</a>
+                  <div class="header__menu-inner-list js-accardion-togle-body"><a class="header__menu-inner-link" href="javascript:void(0)">Красные</a><a class="header__menu-inner-link" href="javascript:void(0)">Красные</a><a class="header__menu-inner-link" href="javascript:void(0)">Розовые</a><a class="header__menu-inner-link" href="javascript:void(0)">Желтые</a><a class="header__menu-inner-link" href="javascript:void(0)">Оранжевые</a><a class="header__menu-inner-link" href="javascript:void(0)">Фиолетовые</a><a class="header__menu-inner-link" href="javascript:void(0)">Синие</a><a class="header__menu-inner-link" href="javascript:void(0)">Разноцветные</a></div>
                 </div>
-                <div class="header__menu-inner-col"><a class="header__menu-inner-col-title" href="javascript:void(0)">Кому</a>
-                  <div class="header__menu-inner-list"><a class="header__menu-inner-link" href="javascript:void(0)">Женщине</a><a class="header__menu-inner-link" href="javascript:void(0)">Жене</a><a class="header__menu-inner-link" href="javascript:void(0)">Девушке</a><a class="header__menu-inner-link" href="javascript:void(0)">Любимой</a><a class="header__menu-inner-link" href="javascript:void(0)">Маме</a><a class="header__menu-inner-link" href="javascript:void(0)">Папе</a><a class="header__menu-inner-link" href="javascript:void(0)">Мужчине</a><a class="header__menu-inner-link" href="javascript:void(0)">Другу</a><a class="header__menu-inner-link" href="javascript:void(0)">Коллеге</a><a class="header__menu-inner-link" href="javascript:void(0)">Невесте</a><a class="header__menu-inner-link" href="javascript:void(0)">Начальнику</a><a class="header__menu-inner-link" href="javascript:void(0)">Учителю</a></div>
+                <div class="header__menu-inner-col"><a class="header__menu-inner-col-title js-accardion-togle" href="javascript:void(0)">Кому</a>
+                  <div class="header__menu-inner-list js-accardion-togle-body"><a class="header__menu-inner-link" href="javascript:void(0)">Женщине</a><a class="header__menu-inner-link" href="javascript:void(0)">Жене</a><a class="header__menu-inner-link" href="javascript:void(0)">Девушке</a><a class="header__menu-inner-link" href="javascript:void(0)">Любимой</a><a class="header__menu-inner-link" href="javascript:void(0)">Маме</a><a class="header__menu-inner-link" href="javascript:void(0)">Папе</a><a class="header__menu-inner-link" href="javascript:void(0)">Мужчине</a><a class="header__menu-inner-link" href="javascript:void(0)">Другу</a><a class="header__menu-inner-link" href="javascript:void(0)">Коллеге</a><a class="header__menu-inner-link" href="javascript:void(0)">Невесте</a><a class="header__menu-inner-link" href="javascript:void(0)">Начальнику</a><a class="header__menu-inner-link" href="javascript:void(0)">Учителю</a></div>
                 </div>
               </div>
             </div>
@@ -222,11 +230,12 @@
                 <div class="header__menu-inner-col"><a class="header__menu-inner-col-title js-accardion-togle" href="javascript:void(0)">Съедобное</a>
                   <div class="header__menu-inner-list js-accardion-togle-body"><a class="header__menu-inner-link" href="javascript:void(0)">Фруктовые корзины</a><a class="header__menu-inner-link" href="javascript:void(0)">Съедобные букеты</a><a class="header__menu-inner-link" href="javascript:void(0)">Сладкие наборы</a><a class="header__menu-inner-link" href="javascript:void(0)">Мёд и чай</a></div>
                 </div>
-                <div class="header__menu-inner-col"><a class="header__menu-inner-col-title js-accardion-togle" href="javascript:void(0)">Мягкие игрушки</a>
-                  <div class="header__menu-inner-list js-accardion-togle-body"><a class="header__menu-inner-link" href="javascript:void(0)">Для детей</a><a class="header__menu-inner-link" href="javascript:void(0)">Плюшевые мишки</a>
-                    <div class="header__menu-inner-col header__menu-inner-col_mt"><a class="header__menu-inner-col-title js-accardion-togle" href="javascript:void(0)">Подарочные наборы</a>
-                      <div class="header__menu-inner-list js-accardion-togle-body"><a class="header__menu-inner-link" href="javascript:void(0)">Все наборы</a><a class="header__menu-inner-link" href="javascript:void(0)">Мужские наборы</a><a class="header__menu-inner-link" href="javascript:void(0)">Женские наборы</a><a class="header__menu-inner-link" href="javascript:void(0)">Детские наборы</a></div>
-                    </div>
+                <div class="header__menu-inner-col-wrapper">
+                  <div class="header__menu-inner-col"><a class="header__menu-inner-col-title js-accardion-togle" href="javascript:void(0)">Мягкие игрушки</a>
+                    <div class="header__menu-inner-list js-accardion-togle-body"><a class="header__menu-inner-link" href="javascript:void(0)">Для детей</a><a class="header__menu-inner-link" href="javascript:void(0)">Плюшевые мишки</a></div>
+                  </div>
+                  <div class="header__menu-inner-col header__menu-inner-col_mt"><a class="header__menu-inner-col-title js-accardion-togle" href="javascript:void(0)">Подарочные наборы</a>
+                    <div class="header__menu-inner-list js-accardion-togle-body"><a class="header__menu-inner-link" href="javascript:void(0)">Все наборы</a><a class="header__menu-inner-link" href="javascript:void(0)">Мужские наборы</a><a class="header__menu-inner-link" href="javascript:void(0)">Женские наборы</a><a class="header__menu-inner-link" href="javascript:void(0)">Детские наборы</a></div>
                   </div>
                 </div>
                 <div class="header__menu-inner-col"><a class="header__menu-inner-col-title js-accardion-togle" href="javascript:void(0)">Другое</a>
@@ -251,6 +260,43 @@
             </div>
           </li>
         </ul>
+      </div>
+      <div class="header__hide-menu js-hide-menu">
+        <div class="header__hide-menu-top">
+          <div class="header__hide-menu-subtitile">Бесплатная доставка. 3 дня гарантии на цветы</div>
+          <div class="header__hide-menu-close js-close-hide-menu"></div>
+        </div><a class="header__hide-menu-link header__hide-menu-login" href="javascript:void(0)">Войти</a>
+        <div class="header__hide-menu-title">Язык и валюта</div>
+        <div class="header__hide-menu-selects"><select class="header__hide-menu-select js-select">
+            <option>RU</option>
+          </select><select class="header__hide-menu-select js-select">
+            <option>KZT</option>
+          </select></div>
+        <div class="header__hide-menu-title">Мы в соцсетях</div>
+        <div class="header__hide-meni-socials">
+          <div class="header__hide-meni-social header__hide-meni-social_fb"></div>
+          <div class="header__hide-meni-social header__hide-meni-social_im"></div>
+          <div class="header__hide-meni-social header__hide-meni-social_vk"></div>
+          <div class="header__hide-meni-social header__hide-meni-social_yb"></div>
+        </div>
+        <div class="header__hide-menu-title">Покупателям</div>
+        <div class="header__hide-menu-link">Доставка</div>
+        <div class="header__hide-menu-link">Оплата</div>
+        <div class="header__hide-menu-link">Гарантии</div>
+        <div class="header__hide-menu-link">Отзывы</div>
+        <div class="header__hide-menu-title">Помощь</div>
+        <div class="header__hide-menu-link">Про оплату</div>
+        <div class="header__hide-menu-link">Про доставку</div>
+        <div class="header__hide-menu-link">Про гарантии</div>
+        <div class="header__hide-menu-link">Про цветы</div>
+        <div class="header__hide-menu-title">Компания</div>
+        <div class="header__hide-menu-link">Документы</div>
+        <div class="header__hide-menu-link">Цветы оптом</div>
+        <div class="header__hide-menu-link">О нас</div>
+        <div class="header__hide-menu-link">Контакты</div>
+        <div class="header__hide-menu-title">Блог</div>
+        <div class="header__hide-menu-link">Новости</div>
+        <div class="header__hide-menu-link">Теплицы</div>
       </div>
     </header>
     <div class="main">
@@ -2451,7 +2497,7 @@
         </div>
       </div>
     </footer>
-    <script src="static/js/app.js?ba8c762a1a1d86d515f1"></script>
+    <script src="static/js/app.js?1e5f4ec378d63452f33f"></script>
   </body>
 
 </html>
