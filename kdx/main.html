@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Главная</title>
+    <meta name="theme-color" content="#fff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+    <link rel="icon" sizes="16x16" href="img/favicons/favicon-16x16.png" type="image/png">
+    <link rel="icon" sizes="32x32" href="img/favicons/favicon-32x32.png" type="image/png">
+    <link rel="apple-touch-icon-precomposed" href="img/favicons/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="img/favicons/apple-touch-icon-167x167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="1024x1024" href="img/favicons/apple-touch-icon-1024x1024.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&amp;display=swap">
+    <link rel="stylesheet" href="styles/main.min.css">
+  </head>
+  <body>
+    <header class="header">
+      <picture class="header__picture"><img srcset="./img/duck.png, ./img/duck2x.png 2x" alt="logo"></picture>
+    </header>
+    <div class="container">
+      <main class="main js-main">
+        <div class="title main__title">¡Ay caramba!</div>
+        <form class="main__form-add js-main-form">
+          <div class="main__row">
+                <div class="field js-field main__input main__input_name"><span class="field__placeholder">Название</span>
+                  <input class="field__input" type="text" name="title">
+                </div>
+                <div class="field js-field main__input"><span class="field__placeholder">Год</span>
+                  <input class="field__input" type="number" name="year">
+                </div>
+                <div class="field js-field main__input"><span class="field__placeholder">Цена</span>
+                  <input class="field__input" type="number" name="price">
+                </div>
+          </div>
+              <div class="field js-field main__input main__input_descr"><span class="field__placeholder">Описание</span>
+                <input class="field__input" type="text" name="description">
+              </div>
+          <div class="main__row main__row_baseline">
+                <div class="field field_color-picker main__color-picker"><span class="field__placeholder">Цвет</span>
+                  <div class="field__color-list">
+                    <div class="field__color-item">
+                      <input class="field__color-input" type="radio" id="c1" name="color" value="white">
+                      <label class="field__color-circle color-circle" for="c1" data-color="white"></label>
+                    </div>
+                    <div class="field__color-item">
+                      <input class="field__color-input" type="radio" id="c2" name="color" value="black">
+                      <label class="field__color-circle color-circle" for="c2" data-color="black"></label>
+                    </div>
+                    <div class="field__color-item">
+                      <input class="field__color-input" type="radio" id="c3" name="color" value="gray">
+                      <label class="field__color-circle color-circle" for="c3" data-color="gray"></label>
+                    </div>
+                    <div class="field__color-item">
+                      <input class="field__color-input" type="radio" id="c4" name="color" value="red">
+                      <label class="field__color-circle color-circle" for="c4" data-color="red"></label>
+                    </div>
+                    <div class="field__color-item">
+                      <input class="field__color-input" type="radio" id="c5" name="color" value="green">
+                      <label class="field__color-circle color-circle" for="c5" data-color="green"></label>
+                    </div>
+                  </div>
+                </div>
+                <div class="select js-select main__select">
+                  <input class="select__hidden-input js-select-input" type="hidden" name="status">
+                  <div class="select__title js-select-title">Статус</div>
+                  <div class="select__list js-select-list">
+                    <div class="select__item" data-value="in_stock">В наличии</div>
+                    <div class="select__item" data-value="pednding">Ожидается</div>
+                    <div class="select__item" data-value="out_of_stock">Нет в наличии</div>
+                  </div>
+                </div>
+            <button class="btn btn_show-more main__send js-main-btn-send" type="button">отправить</button>
+          </div>
+        </form>
+      </main>
+      <div class="main__table">
+            <div class="table js-table">
+              <div class="table__header">
+                <div class="table__row">
+                  <div class="table__col">Название</div>
+                  <div class="table__col">Год</div>
+                  <div class="table__col">Цвет</div>
+                  <div class="table__col">Статус</div>
+                  <div class="table__col">Цена</div>
+                  <div class="table__col"></div>
+                </div>
+              </div>
+              <div class="table__body js-table-body">
+                <div class="table__row">
+                  <div class="table__col">1.6 MT Ambiente 85 л.с. МКПП</div>
+                  <div class="table__col">2020</div>
+                  <div class="table__col">
+                    <div class="color-circle" data-color="black"></div>
+                  </div>
+                  <div class="table__col">Ожидается</div>
+                  <div class="table__col">1 689 000 руб.</div>
+                  <div class="table__col">
+                    <button class="btn btn_delete">Удалить</button>
+                  </div>
+                  <div class="table__col"><span class="table__col-descr">+ доп. опция «Радио-навигационная система Amundasen 2DIN, CD, MP3</span></div>
+                </div>
+                <div class="table__row">
+                  <div class="table__col">1.6 MT Ambiente Plus 105 л.с. МКПП</div>
+                  <div class="table__col">2012</div>
+                  <div class="table__col">
+                    <div class="color-circle" data-color="white"></div>
+                  </div>
+                  <div class="table__col">Ожидается</div>
+                  <div class="table__col">1 689 000 руб.</div>
+                  <div class="table__col">
+                    <button class="btn btn_delete">Удалить</button>
+                  </div>
+                  <div class="table__col table__col_empty"><span class="table__col-descr"></span></div>
+                </div>
+                <div class="table__row">
+                  <div class="table__col">1.6 PowerShift Trend Sport 105 л.с. А...</div>
+                  <div class="table__col">2012</div>
+                  <div class="table__col">
+                    <div class="color-circle" data-color="gray"></div>
+                  </div>
+                  <div class="table__col">Ожидается</div>
+                  <div class="table__col">1 689 000 руб.</div>
+                  <div class="table__col">
+                    <button class="btn btn_delete">Удалить</button>
+                  </div>
+                  <div class="table__col table__col_empty"><span class="table__col-descr"></span></div>
+                </div>
+                <div class="table__row">
+                  <div class="table__col">2.0 MT Trend Sport 150 л.с. МКПП</div>
+                  <div class="table__col">2012</div>
+                  <div class="table__col">
+                    <div class="color-circle" data-color="red"></div>
+                  </div>
+                  <div class="table__col">Ожидается</div>
+                  <div class="table__col">1 689 000 руб.</div>
+                  <div class="table__col">
+                    <button class="btn btn_delete">Удалить</button>
+                  </div>
+                  <div class="table__col table__col_empty"><span class="table__col-descr"></span></div>
+                </div>
+                <div class="table__row">
+                  <div class="table__col">2.0 PowerShift Trend Sport 150 л.с. А...</div>
+                  <div class="table__col">2012</div>
+                  <div class="table__col">
+                    <div class="color-circle" data-color="green"></div>
+                  </div>
+                  <div class="table__col">Ожидается</div>
+                  <div class="table__col">1 689 000 руб.</div>
+                  <div class="table__col">
+                    <button class="btn btn_delete">Удалить</button>
+                  </div>
+                  <div class="table__col"><span class="table__col-descr">+ доп. опция «Радио-навигационная система Amundasen 2DIN, CD, MP3</span></div>
+                </div>
+              </div>
+            </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer__text">© 2020 CAPTAIN QUACK</div>
+      <div class="footer__text">Десница тысячелетия и моллюск! </div>
+    </footer>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
