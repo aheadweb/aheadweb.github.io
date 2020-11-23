@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    const TOKEN = 'IGQVJXcEZAqRFl1M0gtdmdYdTJ5c2ZAqYy1VRk1LaHhGZATRrQU94M3I1TWlqc1BfdEZArc2R4bXRfMTl1OHdWcmJhcFJXcmpxX19rVEpibnF1MjYtTmF0ZAjRMLWpwZATdYRUd4dFVDeXBKSXFCdWoxa1YydQZDZD';
+    let formData = new FormData();
+    formData.append('client_id', '451829995800476');
+    formData.append('client_secret', '43a724fc8484cc465a2817d15d63cb9b');
+    formData.append('grant_type', 'authorization_code');
+    formData.append('redirect_uri', 'https://aheadweb.github.io/authinsta');
+    formData.append('code', TOKEN);
+    fetch('https://api.instagram.com/oauth/access_token', {
+      method: 'POST',
+      body: formData
+    })
+    .then(res => {
+      console.log(res)
+      return res.json();
+    })
+    .then(res =>{
+      console.log(res);
+    })
+  </script>
+</body>
+</html>
