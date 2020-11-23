@@ -8,23 +8,19 @@
 <body>
   <script>
     const TOKEN = 'AQAMgRNdbWcMZ0-rh3dzLZuq2C790OSG-vgxJ4MC7Qhxejg11VN6CUDrSVYSNkRf7-H6qYktNz-0YIzVkXS83Yzfa0UPSr7946B4OCUmn9_51RVql6gSnIuOVJKoIJPpk-dhrIDbIGyJL5wBTA27PP960ChTF8G6F7Dq0k9cBlM2ucj71OFK-5DiDjKQcbXvOP8qASOitF34ZCdhhtf7XiLEJIIWeFvUZy2aRiohOTwbsw';
-    let formData = new FormData();
-    formData.append('client_id', '451829995800476');
-    formData.append('client_secret', '43a724fc8484cc465a2817d15d63cb9b');
-    formData.append('grant_type', 'authorization_code');
-    formData.append('redirect_uri', 'https://aheadweb.github.io/authinsta/index.html');
-    formData.append('code', TOKEN);
-    fetch('https://api.instagram.com/oauth/access_token', {
-      method: 'POST',
-      body: formData
-    })
+    const acsessTOken = 'IGQVJXeXlyWkhjUkw3RjIzZAzhoS0pNVk93VDYzeS1mVmh2dUhCTml6dFlJSDV4NmJDZAmRMd2ppbnFrXzdaN1J2ZAmhYdng2bE9lN2FWYzZA4NHlfekhRN0lXdExiOXpNWXlKY3hBNEJ6QW9HMjJ0MzAzbnA3MGE4MklESGJv';
+    const userId = 17841403173477208;
+    
+    fetch('https://graph.facebook.com/17841403173477208/media')
     .then(res => {
       console.log(res)
       return res.json();
     })
     .then(res =>{
       console.log(res);
-    })
+    });
+
+    // https://graph.facebook.com/v9.0/17895695668004550?fields=id,media_type,media_url,timestamp&access_token=
   </script>
 </body>
 </html>
