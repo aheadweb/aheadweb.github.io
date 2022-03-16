@@ -38,7 +38,7 @@
                 <ul class="navbar-nav">
                     <li class="nav-item"> <a class="nav-link" href="#about">About</a></li>
                     <li class="nav-item"> <a class="nav-link" href="#collections">Our best collections</a></li>
-                    <li class="nav-item"> <a class="nav-link" href="#world_collection">World collection</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="#worldcollection">World collection</a></li>
                     <li class="nav-item"> <a class="nav-link" href="#news">News</a></li>
                     <li class="nav-item"> <a class="nav-link" href="#roadmap">Social</a></li>
                 </ul>
@@ -144,9 +144,9 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="entry entry_large">
-                                <div class="entry-image"> <a href="#"><img src="img/entry-1.jpg" alt="Card"></a>
+                                <div class="entry-image"> <a href="../public_html/page.html"><img src="img/entry-1.jpg" alt="Card"></a>
                                 </div>
-                                <div class="entry-title"> <a href="#">Squid Game</a>
+                                <div class="entry-title"> <a href="../public_html/page.html">Squid Game</a>
                                 </div>
                                 <div class="entry-desc">The series that inspired the collection and GameFi</div>
                             </div>
@@ -224,8 +224,8 @@
                     </div>
                 </div>
                 <!-- end .networks -->
-				<a name="world_collections">
-                <div class="collections collections_clear" id="#world_collection">
+                <a name="worldcollection">
+                <div class="collections collections_clear" id="#worldcollection">
                     <div class="heading">
                         <div class="title">World Collections</div>
                     </div>
@@ -274,6 +274,7 @@
                         </div>
                     </div>
                 </div>
+                </a>
                 <!-- end .collections -->
                 <div class="marketing">
                     <div class="heading">
@@ -434,31 +435,16 @@
             </div>
             <div class="offcanvas-body">
                 <ul class="panel-menu">
-                    <li><a href="#">ABOUT</a>
-
-                    </li>
-                    <li><a href="#">ROADMAP</a>
-
-                    </li>
-                    <li><a href="#">OUR BEST COLLECTIONS</a>
-
-                    </li>
-                    <li><a href="#">WORLD COLLECTION</a>
-
-                    </li>
-                    <li><a href="#">NEWS</a>
-
-                    </li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#collections">OUR BEST COLLECTIONS</a></li>
+                    <li><a href="#worldcollection">WORLD COLLECTION</a></li>
+                    <li><a href="#news">NEWS</a></li>
+                    <li><a href="#">SOCIAL</a></li>
                 </ul>
                 <button type="submit" class="btn btn-lg btn-light" data-bs-toggle="modal"
                 data-bs-target="#modalOrder">ORDER A COLLECTION</button>
                 <ul class="panel-list">
-                    <li> <a href="#" target="_blank">
-
-          <img src="img/discord.svg" alt="Discord">
-
-        </a>
-                    </li>
+                    <li> <a href="#" target="_blank"><img src="img/discord.svg" alt="Discord"></a></li>
                     <li> <a href="#" target="_blank">
 
           <img src="img/telegram.svg" alt="Discord">
@@ -487,9 +473,9 @@
                     <div class="modal-body">
                         <form class="needs-validation" novalidate>
                             <div class="input-group mb-4">
-                                <input type="text" class="form-control" placeholder="Name" aria-label="Name"
+                                <input type="text" class="form-control" placeholder="Ex. Johny" aria-label="Ex. Johny"
                                 required>
-                                <div class="invalid-feedback">Error message</div> <span class="input-placeholder">Username</span>
+                                <div class="invalid-feedback">Error message</div> <span class="input-placeholder">Your name</span>
                             </div>
                             <div class="input-group mb-4">
                                 <input type="email" class="form-control" placeholder="Ex. nftworkin@google.com"
