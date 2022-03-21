@@ -8399,13 +8399,13 @@ h1, .h1, .h1, h2, .h2, .h2, h3, .h3, .h3, h4, .h4, .h4, h5, .h5, .h5, h6, .h6, .
     .entry-image:hover img {
       transform: scale(1.1); } }
 
-.collections .entry-title a{
+.collections_clear .entry-title a{
   text-decoration: none;
   cursor: default;
   border-bottom: 0;
 }
 
-.collections .entry-image a {
+.collections_clear .entry-image a {
   cursor: default;
 }
 
